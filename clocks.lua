@@ -166,7 +166,7 @@ settings_table = {
   clock_y=82
 
 --Colour & alpha of the clock hands
-  clock_colour=0xe53935
+  clock_colour=0xFF8000
   clock_alpha=0.6
 
 --Show the seconds hand ?
