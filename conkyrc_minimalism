@@ -69,13 +69,15 @@ conky.text = [[
   ##Replace 'wlan0' with name of your network interface
   ${offset 118}${voffset 10}${color #FFFFFF}Up ${offset 10}${color #FF8000}${upspeed wlan0}
   ##Replace 'wlan0' with name of your network interface
-  ${offset 120}${voffset 5}${font Roboto-Regularsize=12}${color #FFFFFF}TDown   ${color #FF8000}${totaldown wlan0}
+  #${offset 120}${voffset 5}${font Roboto-Regularsize=12}${color #FFFFFF}TDown   ${color #FF8000}${totaldown wlan0}
   #${offset 90}${voffset 30}${font Roboto-Regularsize=12}${color #FFFFFF}Song:${offset 21}${color #af1616}${scroll 17 ${execi 2 ~/.conky/minimalism/cmus-conky}}
-  ${offset 65}${voffset 135}${font Roboto-Regular:size=15}${color #FFFFFF}CPU
+  ${offset 35}${voffset 175}${font Roboto-Regular:size=15}${color #FFFFFF}CPU
   ${offset 188}${voffset 35}${font Roboto-Regular:size=8}Core 0
   ${offset 234}${voffset -13}Core 1
   ${offset 274}${voffset -13}Core 2
   ${offset 314}${voffset -13}Core 3
+
+
 
   ${offset 90}${voffset 15}${font Roboto-Regular:size=11}${fs_used /} / ${fs_size /}
   ${offset 80} $mem / $memmax
