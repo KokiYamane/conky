@@ -127,7 +127,7 @@ settings_table = {
      end_angle=450
    },
    {
-       name='fs_used_perc',
+       name='memperc',
        arg='/',
        max=100,
        bg_colour=0xffffff,
@@ -141,7 +141,7 @@ settings_table = {
        end_angle=270
    },
    {
-       name='memperc',
+       name='fs_used_perc',
        arg='/',
        max=100,
        bg_colour=0xffffff,
