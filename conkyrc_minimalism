@@ -73,9 +73,9 @@ conky.text = [[
   #${offset 90}${voffset 30}${font Roboto-Regularsize=12}${color #FFFFFF}Song:${offset 21}${color #af1616}${scroll 17 ${execi 2 ~/.conky/minimalism/cmus-conky}}
   ${offset 35}${voffset 142}${font Roboto-Regular:size=15}${color #FFFFFF}CPU
   ${offset 188}${voffset 35}${font Roboto-Regular:size=8}Core 0
-  ${offset 234}${voffset -13}Core 1
-  ${offset 274}${voffset -13}Core 2
-  ${offset 314}${voffset -13}Core 3
+  ${offset 234}${voffset -12}Core 1
+  ${offset 274}${voffset -12}Core 2
+  ${offset 314}${voffset -12}Core 3
 
   ${offset 90}${voffset 20}${font Roboto-Regular:size=11}${fs_used /} / ${fs_size /}
   ${offset 80}${voffset 5} $mem / $memmax
